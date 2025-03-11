@@ -5,41 +5,68 @@ var right = keyboard_check(ord("D"));
 var left = keyboard_check(ord("Q"));
 var atk = mouse_check_button_pressed(mb_left);
 
-
 //Controls
 if (forward){
+	dir = "up"
+	sprite_index = S_Player_Walk_Up;
 	y -= Speed;
 }
 if (backward){
+	dir = "down"
+	sprite_index = S_Player_Walk_Down;
 	y += Speed;
 }
 if (right){
+	dir = "right"
+	sprite_index = S_Player_Walk_Right;
+	image_xscale = 1;
 	x += Speed;
 }
 if (left){
-	
+	dir = "left"
+	sprite_index = S_Player_Walk_Right;
+	image_xscale = -1;
 	x -= Speed;
 }
 
-/*
+//Attack
 if (atk){
-	sprite_index = S_Player_atk;
+	isAtk = true
+	switch (dir) {
+		case "up":
+			sprite_index = S_Player_Attack_Up;
+			break;
+		case "down":
+			sprite_index = S_Player_Attack_Down;
+			break;
+		case "right":
+			sprite_index = S_Player_Attack_Right;
+			image_xscale = 1;
+			break;
+		case "left":
+			sprite_index = S_Player_Attack_Right;
+			image_xscale = -1;
+			break;
+	}
 	alarm[0] = 30;
 }
-if (!forward && !backward && !right && ! left){
+
+//Idle animation
+if (!forward && !backward && !right && ! left && !isAtk){
 	switch (dir) {
-		case 1:
+		case "up":
 			sprite_index = S_Player_Idle_Up;
 			break;
-		case 2:
+		case "down":
 			sprite_index = S_Player_Idle_Down;
 			break;
-		case 3:
+		case "right":
 			sprite_index = S_Player_Idle_Right;
+			image_xscale = 1;
 			break;
-		case 4:
-			sprite_index = S_Player_Idle_Left;
+		case "left":
+			sprite_index = S_Player_Idle_Right;
+			image_xscale = -1;
 			break;
 	}
 }
-*//**/

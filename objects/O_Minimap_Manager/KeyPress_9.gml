@@ -1,0 +1,1 @@
+global.showMap = !global.showMap;
