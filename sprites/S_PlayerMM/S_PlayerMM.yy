@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"S_PlayerMM",
   "bboxMode":0,
-  "bbox_bottom":7,
+  "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":7,
+  "bbox_right":63,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":8,
+  "height":64,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"454349a0-04e6-409b-bdff-4946b196ccdd","blendMode":0,"displayName":"default","isLocked":false,"name":"454349a0-04e6-409b-bdff-4946b196ccdd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":8,
+  "width":64,
 }

@@ -59,6 +59,8 @@
     {"id":{"name":"S_Player_Walk_Up","path":"sprites/S_Player_Walk_Up/S_Player_Walk_Up.yy",},},
     {"id":{"name":"S_PlayerMM","path":"sprites/S_PlayerMM/S_PlayerMM.yy",},},
     {"id":{"name":"S_Spike","path":"sprites/S_Spike/S_Spike.yy",},},
+    {"id":{"name":"S_Tileset_Haunted_forest","path":"sprites/S_Tileset_Haunted_forest/S_Tileset_Haunted_forest.yy",},},
+    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
