@@ -9,24 +9,24 @@ var atk = mouse_check_button_pressed(mb_left);
 if (forward){
 	dir = "up"
 	sprite_index = S_Player_Walk_Up;
-	y -= Speed;
+	vspeed = -Speed;
 }
 if (backward){
 	dir = "down"
 	sprite_index = S_Player_Walk_Down;
-	y += Speed;
+	vspeed = Speed;
 }
 if (right){
 	dir = "right"
 	sprite_index = S_Player_Walk_Right;
 	image_xscale = 1;
-	x += Speed;
+	hspeed = Speed;
 }
 if (left){
 	dir = "left"
 	sprite_index = S_Player_Walk_Right;
 	image_xscale = -1;
-	x -= Speed;
+	hspeed = -Speed;
 }
 
 //Attack
@@ -51,22 +51,26 @@ if (atk){
 	alarm[0] = 30;
 }
 
-//Idle animation
-if (!forward && !backward && !right && ! left && !isAtk){
-	switch (dir) {
-		case "up":
-			sprite_index = S_Player_Idle_Up;
-			break;
-		case "down":
-			sprite_index = S_Player_Idle_Down;
-			break;
-		case "right":
-			sprite_index = S_Player_Idle_Right;
-			image_xscale = 1;
-			break;
-		case "left":
-			sprite_index = S_Player_Idle_Right;
-			image_xscale = -1;
-			break;
+//Idle
+if (!forward && !backward && !right && ! left){
+	hspeed = 0;
+	vspeed = 0;
+	if (!isAtk){
+		switch (dir) {
+			case "up":
+				sprite_index = S_Player_Idle_Up;
+				break;
+			case "down":
+				sprite_index = S_Player_Idle_Down;
+				break;
+			case "right":
+				sprite_index = S_Player_Idle_Right;
+				image_xscale = 1;
+				break;
+			case "left":
+				sprite_index = S_Player_Idle_Right;
+				image_xscale = -1;
+				break;
+		}
 	}
 }
