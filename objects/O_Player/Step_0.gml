@@ -4,73 +4,46 @@ var backward = keyboard_check(ord("S"));
 var right = keyboard_check(ord("D"));
 var left = keyboard_check(ord("Q"));
 var atk = mouse_check_button_pressed(mb_left);
+var coll = instance_place(x+dirX*32,y+dirY*32,O_Collision);
 
 //Controls
 if (forward){
-	dir = "up"
-	sprite_index = S_Player_Walk_Up;
-	vspeed = -Speed;
+	dirX = 0;
+	dirY = -1;
 }
 if (backward){
-	dir = "down"
-	sprite_index = S_Player_Walk_Down;
-	vspeed = Speed;
+	dirX = 0;
+	dirY = 1;
 }
 if (right){
-	dir = "right"
-	sprite_index = S_Player_Walk_Right;
-	image_xscale = 1;
-	hspeed = Speed;
+	dirX = 1;
+	dirY = 0;
 }
 if (left){
-	dir = "left"
-	sprite_index = S_Player_Walk_Right;
-	image_xscale = -1;
-	hspeed = -Speed;
+	dirX = -1;
+	dirY = 0;
+}
+//Check collision
+if (!coll){
+	if (!isMoving){
+		targetX = dirX*32;
+		targetY = dirY*32;
+		isMoving = true;
+		alarm[0] = nFrameToMove;
+	}
 }
 
+if (isMoving){
+	x = targetX/nFrameToMove;
+	y = targetY/nFrameToMove;
+}
+
+if (!forward && !backward && !right && !left){
+	dirX = 0;
+	dirY = 0;
+}
 //Attack
 if (atk){
 	isAtk = true
-	switch (dir) {
-		case "up":
-			sprite_index = S_Player_Attack_Up;
-			break;
-		case "down":
-			sprite_index = S_Player_Attack_Down;
-			break;
-		case "right":
-			sprite_index = S_Player_Attack_Right;
-			image_xscale = 1;
-			break;
-		case "left":
-			sprite_index = S_Player_Attack_Right;
-			image_xscale = -1;
-			break;
-	}
 	alarm[0] = 30;
-}
-
-//Idle
-if (!forward && !backward && !right && ! left){
-	hspeed = 0;
-	vspeed = 0;
-	if (!isAtk){
-		switch (dir) {
-			case "up":
-				sprite_index = S_Player_Idle_Up;
-				break;
-			case "down":
-				sprite_index = S_Player_Idle_Down;
-				break;
-			case "right":
-				sprite_index = S_Player_Idle_Right;
-				image_xscale = 1;
-				break;
-			case "left":
-				sprite_index = S_Player_Idle_Right;
-				image_xscale = -1;
-				break;
-		}
-	}
 }
