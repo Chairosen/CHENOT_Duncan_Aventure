@@ -1,1 +1,1 @@
-isAtk = false;
+isMoving = false;

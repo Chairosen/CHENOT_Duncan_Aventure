@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"S_Tileset_Haunted_forest",
   "bboxMode":0,
-  "bbox_bottom":191,
+  "bbox_bottom":255,
   "bbox_left":0,
-  "bbox_right":255,
+  "bbox_right":767,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,15 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4877c2d2-2ec9-4a8a-954d-0b18f48c74b7","name":"4877c2d2-2ec9-4a8a-954d-0b18f48c74b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3f50e526-7dbc-4b51-a060-1b85e53e8369","name":"3f50e526-7dbc-4b51-a060-1b85e53e8369","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9de406e5-b4a1-41d7-ba65-8528f4f1a64d","name":"9de406e5-b4a1-41d7-ba65-8528f4f1a64d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c41f4cd5-4f04-40ed-8a16-7c6e40ab47db","blendMode":0,"displayName":"default","isLocked":false,"name":"c41f4cd5-4f04-40ed-8a16-7c6e40ab47db","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"62f6ea60-cc7b-4139-85aa-0c0f05441324","blendMode":0,"displayName":"default","isLocked":false,"name":"62f6ea60-cc7b-4139-85aa-0c0f05441324","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"S_Tileset_Haunted_forest",
   "nineSlice":null,
@@ -50,7 +49,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":2.0,
+    "length":1.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -70,11 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4877c2d2-2ec9-4a8a-954d-0b18f48c74b7","path":"sprites/S_Tileset_Haunted_forest/S_Tileset_Haunted_forest.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7dacf162-dd66-43b3-b8af-eb8882dc5369","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3f50e526-7dbc-4b51-a060-1b85e53e8369","path":"sprites/S_Tileset_Haunted_forest/S_Tileset_Haunted_forest.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e0f6c7c-8030-4dee-b10b-9a38cd65e862","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9de406e5-b4a1-41d7-ba65-8528f4f1a64d","path":"sprites/S_Tileset_Haunted_forest/S_Tileset_Haunted_forest.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"dd6c518e-bd02-439e-9911-c9c04f18e513","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -90,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":256,
+  "width":768,
 }

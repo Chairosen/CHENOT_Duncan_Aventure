@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Player",
-    "path":"folders/Sprites/Player.yy",
+    "name":"Minimap",
+    "path":"folders/Sprites/Minimap.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

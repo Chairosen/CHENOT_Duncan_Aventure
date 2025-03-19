@@ -1,0 +1,1 @@
+isAtk = false;
