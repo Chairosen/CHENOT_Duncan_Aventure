@@ -9,7 +9,7 @@
   ],
   "parent":{
     "name":"NPC",
-    "path":"folders/Objects/NPC.yy",
+    "path":"folders/Objects/Game/NPC.yy",
   },
   "parentObjectId":{
     "name":"O_Enemy_Parent",

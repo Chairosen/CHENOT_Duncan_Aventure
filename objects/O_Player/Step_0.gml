@@ -4,6 +4,7 @@ var right = keyboard_check(vk_right);
 var down = keyboard_check(vk_down);
 var atk = mouse_check_button_pressed(mb_left);
 var coll = instance_place(x+dirX*64,y+dirY*64,[noone]);
+var esc = keyboard_check_pressed(vk_escape);
 
 //Check collision
 if ((coll<=0))

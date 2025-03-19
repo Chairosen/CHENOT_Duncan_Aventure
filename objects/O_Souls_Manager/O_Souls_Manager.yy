@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Managers",
-    "path":"folders/Objects/Managers.yy",
+    "path":"folders/Objects/Game/Managers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

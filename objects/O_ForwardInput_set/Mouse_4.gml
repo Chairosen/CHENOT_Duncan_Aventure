@@ -1,0 +1,1 @@
+O_Player_ZeldaLike.forwardInput = keyboard_lastkey;
