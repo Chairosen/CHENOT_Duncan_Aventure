@@ -6,6 +6,7 @@
   "name":"O_Child_Fantom",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Parent","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"propertyId":{"name":"HP","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Parent","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"propertyId":{"name":"soulLoot","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"NPC",

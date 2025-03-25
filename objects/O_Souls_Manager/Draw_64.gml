@@ -7,10 +7,11 @@
 /// @DnDSaveInfo : "sprite" "S_Soul"
 draw_sprite(S_Soul, 0, 50, 50);
 
-/// @DnDAction : YoYo Games.Drawing.Draw_Instance_Score
+/// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
-/// @DnDHash : 3F43E2E6
+/// @DnDHash : 27E36926
 /// @DnDArgument : "x" "82"
 /// @DnDArgument : "y" "50"
-/// @DnDArgument : "caption" "counter"
-if(!variable_instance_exists(id, "__dnd_score")) __dnd_score = 0;draw_text(82, 50, string(counter) + string(__dnd_score));
+/// @DnDArgument : "caption" """"
+/// @DnDArgument : "var" "counter"
+draw_text(82, 50, string("") + string(counter));

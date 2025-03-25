@@ -1,0 +1,1 @@
+O_Souls_Manager.counter += 1;

@@ -27,3 +27,25 @@ if (!up && !down && !right && !left){
 	dirX = 0;
 	dirY = 0;
 }
+
+if (atk)
+{
+	if (weapon == "Kill")
+	{
+		if (!isAtk)
+	{
+		isAtk = true;
+		alarm_set(1,10);
+		instance_create_layer(x+32,y,"Player",O_Weapon)
+	}
+	}
+	if (weapon == "Music")
+	{
+		instance_create_layer(x,y,"Player",O_Instrument)
+		alarm[1] = 10;
+		for (var i = 0;i < 5;i++)
+		{
+			instance_create_layer(x,y,"Player",O_MusicNotes);
+		}
+	}
+}
