@@ -89,6 +89,7 @@
     {"id":{"name":"S_Cerberus_Fantom","path":"sprites/S_Cerberus_Fantom/S_Cerberus_Fantom.yy",},},
     {"id":{"name":"S_Check_Button","path":"sprites/S_Check_Button/S_Check_Button.yy",},},
     {"id":{"name":"S_Child_Fantom","path":"sprites/S_Child_Fantom/S_Child_Fantom.yy",},},
+    {"id":{"name":"S_Collider","path":"sprites/S_Collider/S_Collider.yy",},},
     {"id":{"name":"S_controlinput_set","path":"sprites/S_controlinput_set/S_controlinput_set.yy",},},
     {"id":{"name":"S_Heart","path":"sprites/S_Heart/S_Heart.yy",},},
     {"id":{"name":"S_Hurt","path":"sprites/S_Hurt/S_Hurt.yy",},},

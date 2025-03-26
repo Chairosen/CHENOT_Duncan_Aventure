@@ -3,7 +3,7 @@ var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
 var down = keyboard_check(vk_down);
 var atk = mouse_check_button_pressed(mb_left);
-var coll = instance_place(x+dirX*64,y+dirY*64,[noone]);
+var coll = instance_place(x+dirX*64,y+dirY*64,O_Collision);
 var esc = keyboard_check_pressed(vk_escape);
 
 //Check collision

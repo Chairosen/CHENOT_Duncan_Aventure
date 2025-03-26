@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
   "%Name":"O_Knight_Fantom",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"O_Knight_Fantom",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Parent","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"propertyId":{"name":"soulLoot","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"O_Enemy_Parent","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"propertyId":{"name":"HP","path":"objects/O_Enemy_Parent/O_Enemy_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
   ],
   "parent":{
     "name":"NPC",
