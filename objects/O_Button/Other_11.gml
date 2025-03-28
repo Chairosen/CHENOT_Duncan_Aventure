@@ -1,0 +1,1 @@
+image_blend = merge_color(image_blend,c_white,0.05);

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_Settings",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Sc_Settings",
+  "parent":{
+    "name":"ButtonScript",
+    "path":"folders/Scripts/ButtonScript.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_Quit",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Sc_Quit",
+  "parent":{
+    "name":"ButtonScript",
+    "path":"folders/Scripts/ButtonScript.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
