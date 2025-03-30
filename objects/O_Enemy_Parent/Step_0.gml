@@ -1,7 +1,7 @@
 var p_direction = point_direction(x,y,O_Player.x,O_Player.y);
 var collid = instance_place(x+dirX*64, y+dirY*64,O_Collision);
 var dist = point_distance(x,y,O_Player.x,O_Player.y);
-var rightAtkRange = collision_rectangle(x+64,y,x+xRange*64,y+64,O_Player,0,0);
+var rightAtkRange = collision_rectangle(x+64,y,x+64+xRange*64,y+64,O_Player,0,0);
 var leftAtkRange = collision_rectangle(x,y,x-xRange*64,y+64,O_Player,0,0);
 var upAtkRange = collision_rectangle(x,y,x+64,y-yRange*64,O_Player,0,0);
 var downAtkRange = collision_rectangle(x,y+64,x+64,y+64+yRange*64,O_Player,0,0);
@@ -10,7 +10,7 @@ if (HP <= 0)
 	instance_destroy();
 }
 
-if (dist <384 && rightAtkRange <= 0 && leftAtkRange <= 0 && upAtkRange <= 0 && downAtkRange <= 0)
+if (dist <384 && not rightAtkRange && not leftAtkRange && not upAtkRange && not downAtkRange)
 {
 	if (isMoving == false)
 	{
@@ -60,10 +60,14 @@ if (dist <384 && rightAtkRange <= 0 && leftAtkRange <= 0 && upAtkRange <= 0 && d
 	}
 }
 
-if (rightAtkRange > 0 && leftAtkRange > 0 && upAtkRange > 0 && downAtkRange > 0)
+if (rightAtkRange || leftAtkRange || upAtkRange || downAtkRange)
 {
+	show_debug_message("In range")
 	if (!atk)
 	{
-		script_execute(sc_ReduceLife,dmg)
+		show_debug_message("Attack")
+		atk = true;
+		script_execute(sc_ReduceLife,dmg);
+		alarm[2] = 150;
 	}
 }
