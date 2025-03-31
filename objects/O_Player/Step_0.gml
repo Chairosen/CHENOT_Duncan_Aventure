@@ -49,3 +49,6 @@ if (atk)
 		}
 	}
 }
+
+interactX = dirX;
+interactY = dirY;

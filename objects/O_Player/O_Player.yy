@@ -44,6 +44,8 @@
     {"$GMObjectProperty":"v1","%Name":"isMoving","filters":[],"listItems":[],"multiselect":false,"name":"isMoving","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"nFrameToMove","filters":[],"listItems":[],"multiselect":false,"name":"nFrameToMove","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"8","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"weapon","filters":[],"listItems":[],"multiselect":false,"name":"weapon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Kill","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"interactX","filters":[],"listItems":[],"multiselect":false,"name":"interactX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"interactY","filters":[],"listItems":[],"multiselect":false,"name":"interactY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
