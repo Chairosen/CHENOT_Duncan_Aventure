@@ -97,6 +97,7 @@
     {"id":{"name":"S_Heart","path":"sprites/S_Heart/S_Heart.yy",},},
     {"id":{"name":"S_Hurt","path":"sprites/S_Hurt/S_Hurt.yy",},},
     {"id":{"name":"S_Instrument","path":"sprites/S_Instrument/S_Instrument.yy",},},
+    {"id":{"name":"S_Interact","path":"sprites/S_Interact/S_Interact.yy",},},
     {"id":{"name":"S_Knight_Fantom","path":"sprites/S_Knight_Fantom/S_Knight_Fantom.yy",},},
     {"id":{"name":"S_MusicNotes","path":"sprites/S_MusicNotes/S_MusicNotes.yy",},},
     {"id":{"name":"S_Player_Idle_Down","path":"sprites/S_Player_Idle_Down/S_Player_Idle_Down.yy",},},

@@ -81,7 +81,6 @@ if (atk)
 	{
 		isAtk = true;
 		alarm_set(1,10);
-		instance_create_layer(x+32,y,"Player",O_Weapon)
 	}
 	}
 	if (weapon == "Music")
@@ -94,6 +93,23 @@ if (atk)
 		}
 	}
 }
-
-interactX = dirX;
-interactY = dirY;
+if (dirX == 1)
+{
+interactX = 1;
+interactY = 0;
+}
+if (dirX == -1)
+{
+interactX = -1;
+interactY = 0;
+}
+if (dirY == 1)
+{
+interactX = 0;
+interactY = 1;
+}
+if (dirY == -1)
+{
+interactX = 0;
+interactY = -1;
+}
