@@ -9,8 +9,8 @@
   "name":"O_Instrument",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Objects/Game.yy",
+    "name":"Player",
+    "path":"folders/Objects/Game/Player.yy",
   },
   "parentObjectId":{
     "name":"O_Weapon",

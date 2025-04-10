@@ -1,1 +1,1 @@
-isInvincible = false;
+global.isInvincible = false;

@@ -8,8 +8,8 @@
   "name":"O_Spike",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Objects/Game.yy",
+    "name":"Environement",
+    "path":"folders/Objects/Game/Environement.yy",
   },
   "parentObjectId":null,
   "persistent":false,

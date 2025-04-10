@@ -1,0 +1,1 @@
+global.actualRoom = "R_Test";

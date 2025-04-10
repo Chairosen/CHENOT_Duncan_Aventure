@@ -1,0 +1,1 @@
+ds_list_add(O_Inventory_Manager.caseList,self);

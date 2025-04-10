@@ -7,9 +7,9 @@ function sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.If_Variabl
 	/// @DnDVersion : 1
 	/// @DnDHash : 486ADFB5
 	/// @DnDParent : 11FC6B5F
-	/// @DnDArgument : "var" "O_Life_Manager.isInvincible"
+	/// @DnDArgument : "var" "global.isInvincible"
 	/// @DnDArgument : "value" "false"
-	if(O_Life_Manager.isInvincible == false){	/// @DnDAction : YoYo Games.Common.Variable
+	if(global.isInvincible == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 65007383
 		/// @DnDInput : 2
@@ -17,10 +17,10 @@ function sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.If_Variabl
 		/// @DnDArgument : "expr" "-amount"
 		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "expr_1" "true"
-		/// @DnDArgument : "var" "O_Life_Manager.playerLife"
-		/// @DnDArgument : "var_1" "O_Life_Manager.isInvincible"
-		O_Life_Manager.playerLife += -amount;
-		O_Life_Manager.isInvincible = true;
+		/// @DnDArgument : "var" "global.playerLife"
+		/// @DnDArgument : "var_1" "global.isInvincible"
+		global.playerLife += -amount;
+		global.isInvincible = true;
 	
 		/// @DnDAction : YoYo Games.Instances.Set_Alarm
 		/// @DnDVersion : 1

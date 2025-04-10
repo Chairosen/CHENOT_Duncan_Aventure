@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
   "%Name":"O_Door",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Door",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game",
-    "path":"folders/Objects/Game.yy",
+    "name":"Environement",
+    "path":"folders/Objects/Game/Environement.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Interactible",
+    "path":"objects/O_Interactible/O_Interactible.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Collider",
+    "path":"sprites/S_Collider/S_Collider.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

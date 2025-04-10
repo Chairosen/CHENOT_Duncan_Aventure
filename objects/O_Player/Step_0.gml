@@ -2,9 +2,9 @@ var up = keyboard_check(vk_up);
 var left = keyboard_check(vk_left);
 var right = keyboard_check(vk_right);
 var down = keyboard_check(vk_down);
-var atk = mouse_check_button_pressed(mb_left);
 var coll = instance_place(x+dirX*64,y+dirY*64,O_Collision);
 var esc = keyboard_check_pressed(vk_escape);
+global.atk = mouse_check_button_pressed(mb_left);
 
 //verification and getting of the connected controller
 var gamepadCount = gamepad_get_device_count();
@@ -40,7 +40,7 @@ if (connectedGamepad > 0)
 	dirY = padDown-padUp;
 	dirX = padRight-padLeft;
 	
-	atk = gamepad_button_check(4,gp_shoulderrb);
+	global.atk = gamepad_button_check(4,gp_shoulderrb);
 	esc = gamepad_button_check_pressed(4,gp_start);
 	var triangle = gamepad_button_check_pressed(4,gp_face4);
 	
@@ -72,27 +72,6 @@ if (isMoving == true){
 	y += targetY/nFrameToMove;
 }
 
-
-if (atk)
-{
-	if (weapon == "Kill")
-	{
-		if (!isAtk)
-	{
-		isAtk = true;
-		alarm_set(1,10);
-	}
-	}
-	if (weapon == "Music")
-	{
-		instance_create_layer(x,y,"Player",O_Instrument)
-		alarm[1] = 10;
-		for (var i = 0;i < 5;i++)
-		{
-			instance_create_layer(x,y,"Player",O_MusicNotes);
-		}
-	}
-}
 if (dirX == 1)
 {
 interactX = 1;
@@ -113,3 +92,26 @@ if (dirY == -1)
 interactX = 0;
 interactY = -1;
 }
+
+if (global.atk)
+{
+	if (weapon == "Kill")
+	{
+		if (!isAtk)
+		{
+			isAtk = true;
+			alarm_set(1,10);
+		}
+	}
+	if (weapon == "Music")
+	{
+		isAtk = true;
+		alarm[1] = 10;
+		for (var i = 0;i < 5;i++)
+		{
+			instance_create_layer(x,y,"Player",O_MusicNotes);
+		}
+	}
+}
+
+global.actualRoom = room_get_name(room);
