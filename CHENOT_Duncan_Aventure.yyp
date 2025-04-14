@@ -132,6 +132,7 @@
     {"id":{"name":"S_Spike","path":"sprites/S_Spike/S_Spike.yy",},},
     {"id":{"name":"S_Tileset_Haunted_forest","path":"sprites/S_Tileset_Haunted_forest/S_Tileset_Haunted_forest.yy",},},
     {"id":{"name":"S_Title","path":"sprites/S_Title/S_Title.yy",},},
+    {"id":{"name":"S_Titlescreen","path":"sprites/S_Titlescreen/S_Titlescreen.yy",},},
     {"id":{"name":"S_weapon","path":"sprites/S_weapon/S_weapon.yy",},},
     {"id":{"name":"Ts_Haunted_Forest","path":"tilesets/Ts_Haunted_Forest/Ts_Haunted_Forest.yy",},},
   ],
