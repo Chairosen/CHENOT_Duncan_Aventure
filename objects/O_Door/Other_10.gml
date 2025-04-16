@@ -1,4 +1,4 @@
-if (global.soulCounter >= 1)
+if (global.soulCounter >= soulCount)
 {
-	room_goto(R_Donjon);
+	room_goto(roomToGo);
 }

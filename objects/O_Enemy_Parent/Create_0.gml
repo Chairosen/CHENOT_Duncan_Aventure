@@ -1,0 +1,1 @@
+script_execute(Sc_CreateMinimapObject,self,S_EnemyMM,image_xscale,image_yscale);

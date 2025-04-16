@@ -12,7 +12,10 @@
     "name":"ParentObject",
     "path":"folders/Objects/Game/ParentObject.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"O_Collision",
+    "path":"objects/O_Collision/O_Collision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

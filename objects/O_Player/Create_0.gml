@@ -1,3 +1,3 @@
 isAtk = false;
-//Sprite
-script_execute(Sc_CreateMinimapObject,self,S_PlayerMM);
+//Sprite minimap
+script_execute(Sc_CreateMinimapObject,self,S_PlayerMM,image_xscale,image_yscale);
