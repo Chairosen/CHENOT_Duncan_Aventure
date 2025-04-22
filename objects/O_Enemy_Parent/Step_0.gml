@@ -70,6 +70,6 @@ if (rightatkRange || leftatkRange || upatkRange || downatkRange)
 	{
 		atk = true;
 		script_execute(sc_ReduceLife,dmg);
-		alarm[2] = 60;
+		alarm[2] = cooldown;
 	}
 }

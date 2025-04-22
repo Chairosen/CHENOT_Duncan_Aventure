@@ -2,6 +2,7 @@
 instance_deactivate_all(true);
 instance_activate_layer("Managers");
 instance_deactivate_object(O_SpriteManager);
+instance_deactivate_object(O_ItemBar_Manager);
 //creation des cases d'inventaire et du selecteur
 for (var i = 0; i<2;i++)
 {

@@ -1,5 +1,5 @@
-var width = window_get_width()/2;
-var height = window_get_height();
+var width = view_get_wport(0)/3; //display_get_width()/2; //camera_get_view_width(view_camera[0]);//window_get_width()/2;
+var height = view_get_hport(0)*2/3; //display_get_height(); //camera_get_view_height(view_camera[0]);//window_get_height();
 
 for (var i = 0; i < 2;i++)
 {

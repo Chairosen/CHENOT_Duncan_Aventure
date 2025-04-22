@@ -1,14 +1,15 @@
-/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
-/// @DnDVersion : 1
-/// @DnDHash : 535A6A4D
-/// @DnDArgument : "obj" "O_Selector"
-/// @DnDArgument : "not" "1"
-/// @DnDSaveInfo : "obj" "O_Selector"
-var l535A6A4D_0 = false;l535A6A4D_0 = instance_exists(O_Selector);if(!l535A6A4D_0){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprites_Stacked
-	/// @DnDVersion : 1
-	/// @DnDHash : 41D07A2D
-	/// @DnDParent : 535A6A4D
-	/// @DnDArgument : "sprite" "S_Heart"
-	/// @DnDArgument : "number" "global.playerLife"
-	/// @DnDSaveInfo : "sprite" "S_Heart"
-	var l41D07A2D_0 = sprite_get_width(S_Heart);var l41D07A2D_1 = 0;for(var l41D07A2D_2 = global.playerLife; l41D07A2D_2 > 0; --l41D07A2D_2) {	draw_sprite(S_Heart, 0, 0 + l41D07A2D_1, 0);	l41D07A2D_1 += l41D07A2D_0;}}
+var existSelector = instance_exists(O_Selector);
+if(!existSelector)
+{
+for(var i = 0; i < global.playerLife*2; i++)
+{
+	if (i%2 == 0)
+	{
+		draw_sprite(S_Heart, 0, 32 + i*32, 0);
+	}
+	else
+	{
+		draw_sprite_ext(S_Heart, 0, 32 + i*32, 0,-1,1,0,c_white,1);
+	}
+}
+}

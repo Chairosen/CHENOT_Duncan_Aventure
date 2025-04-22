@@ -1,4 +1,8 @@
-/// @DnDAction : YoYo Games.Rooms.Previous_Room
-/// @DnDVersion : 1
-/// @DnDHash : 3C7AA281
-room_goto_previous();
+if (global.BossDefeated)
+{
+	room_goto(End);
+}
+else 
+{
+	room_goto(Menu);
+}

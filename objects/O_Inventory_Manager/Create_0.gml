@@ -10,9 +10,9 @@ itemDmgBuff = 5
 //verification de l'existance du tableau d'inventaire et création de ce dernier le cas contraire
 if (!variable_global_exists("itemList"))
 {
-global.itemList = [	[1,"Potion",0,S_Potion,2,0],
-					[2,"Potion +",0,S_Potion2,3,0],
-					[3,"DMG +",0,S_Spike,0,2]];
+	global.itemList = [	[1,"Potion",0,S_Potion,2,0],
+						[2,"Potion +",0,S_Potion2,3,0],
+						[3,"DMG +",0,S_Spike,0,2]];
 }
 
 //array_create()

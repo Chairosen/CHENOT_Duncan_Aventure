@@ -32,13 +32,10 @@ function sc_ReduceLife(amount) {	/// @DnDAction : YoYo Games.Common.If_Variabl
 		
 		}
 	
-		/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 6396A799
-		/// @DnDApplyTo : {O_Player}
+		/// @DnDHash : 7D29DE3A
 		/// @DnDParent : 486ADFB5
-		/// @DnDArgument : "x" "O_Player.x"
-		/// @DnDArgument : "y" "O_Player.y"
-		/// @DnDArgument : "sprite" "S_Hurt"
-		/// @DnDSaveInfo : "sprite" "S_Hurt"
-		with(O_Player) draw_sprite_ext(S_Hurt, 0, O_Player.x, O_Player.y, 1, 1, 0, $FFFFFF & $ffffff, 1);}}
+		/// @DnDArgument : "expr" "c_red"
+		/// @DnDArgument : "var" "O_Player.image_blend"
+		O_Player.image_blend = c_red;}}

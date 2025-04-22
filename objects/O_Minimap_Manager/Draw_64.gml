@@ -6,3 +6,8 @@ if (global.showMap){
 	var width = (40 * room_width) / widthProportion;
 	draw_rectangle(32,32,width,height,0);
 }
+else if (alarm[0] > 0)
+{
+	draw_set_colour(c_red);
+	draw_text_transformed(/*camera_get_view_width(view_camera[0])/3*/450,190,"Vous ne pouvez pas utiliser la carte ici.",2,2,0);
+}
