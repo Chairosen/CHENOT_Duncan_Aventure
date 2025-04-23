@@ -15,5 +15,17 @@ if (alarm[1] > 0)
 if (alarm[2] > 0)
 {
 	draw_set_halign(fa_left);
-	draw_text(32,camera_get_view_height(view_camera[0])*3/4,"Vous n'avez pas assez d'âmes.");
+	draw_text(32,camera_get_view_height(view_camera[0])*3/4,"Il vous faut "+ string(missingSouls) +" âmes pour ouvrir cette porte.");
+}
+//Affiche une phrase quand le joueur tente d'apaiser une âme à executer
+if (alarm[3] > 0)
+{
+	draw_set_halign(fa_left);
+	draw_text(32,camera_get_view_height(view_camera[0])*3/4,"Cette âme ne semble pas entendre la douce mélodie...");
+}
+//Affiche une phrase quand le joueur réussi à apaiser une âme
+if (alarm[4] > 0)
+{
+	draw_set_halign(fa_left);
+	draw_text(32,camera_get_view_height(view_camera[0])*3/4,"Elle ne semble pas insensible à cette mélodie !");
 }

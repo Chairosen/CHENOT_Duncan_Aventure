@@ -7,10 +7,11 @@ if (global.soulCounter >= soulCount)
 	}
 	else 
 	{
-		O_Loot_Chat_Manager.printDoor = true;
+		O_Chat_Manager.printDoor = true;
 	}
 }
 else 
 {
-	O_Loot_Chat_Manager.printSoul = true;
+	O_Chat_Manager.missingSouls = soulCount;
+	O_Chat_Manager.printSoul = true;
 }

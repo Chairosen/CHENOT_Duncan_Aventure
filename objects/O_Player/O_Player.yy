@@ -51,8 +51,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Player_Idle_Up",
-    "path":"sprites/S_Player_Idle_Up/S_Player_Idle_Up.yy",
+    "name":"S_Player_Idle_Down",
+    "path":"sprites/S_Player_Idle_Down/S_Player_Idle_Down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Sc_PlayAgain",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Sc_PlayAgain",
+  "parent":{
+    "name":"ButtonScript",
+    "path":"folders/Scripts/ButtonScript.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

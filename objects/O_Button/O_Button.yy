@@ -34,7 +34,9 @@
     {"$GMObjectProperty":"v1","%Name":"buttonText","filters":[],"listItems":[],"multiselect":false,"name":"buttonText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"text","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"buttonTextColor","filters":[],"listItems":[],"multiselect":false,"name":"buttonTextColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF000000","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"buttonSelectionColor","filters":[],"listItems":[],"multiselect":false,"name":"buttonSelectionColor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00FFFF","varType":7,},
-    {"$GMObjectProperty":"v1","%Name":"scriptToExecute","filters":[],"listItems":[],"multiselect":false,"name":"scriptToExecute","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"scriptToExecute","filters":[
+        "GMScript",
+      ],"listItems":[],"multiselect":false,"name":"scriptToExecute","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

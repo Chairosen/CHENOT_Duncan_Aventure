@@ -1,4 +1,4 @@
-if (global.actualRoom != "R_Boss")
+if (global.actualRoom != "R_Boss" && global.actualRoom != "R_")
 {
 	global.showMap = !global.showMap;
 }

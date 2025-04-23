@@ -6,6 +6,11 @@ var coll = instance_place(x+dirX*64,y+dirY*64,O_Collision);
 var esc = keyboard_check_pressed(vk_escape);
 global.atk = mouse_check_button_pressed(mb_left);
 
+if (global.playerLife <= 0)
+{
+	room_goto(Death);
+}
+
 //verification and getting of the connected controller
 var gamepadCount = gamepad_get_device_count();
 var connectedGamepad = 0;
