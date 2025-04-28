@@ -100,21 +100,30 @@ interactY = -1;
 
 if (global.atk)
 {
-	if (weapon == "Kill")
+	if (!isAtk)
 	{
-		if (!isAtk)
+		switch (weapon)
 		{
-			isAtk = true;
-			alarm_set(1,10);
-		}
-	}
-	if (weapon == "Music")
-	{
-		isAtk = true;
-		alarm[1] = 10;
-		for (var i = 0;i < 5;i++)
-		{
-			instance_create_layer(x,y,"Player",O_MusicNotes);
+			case "Kill" :
+				if (array_contains(global.weaponList,"Kill"))
+				{
+					isAtk = true;
+					alarm_set(1,10);
+				}
+				break;
+			case "Music" :
+				if (array_contains(global.weaponList,"Music"))
+				{
+					isAtk = true;
+					alarm[1] = 10;
+					for (var i = 0;i < 5;i++)
+					{
+						instance_create_layer(x,y,"Player",O_MusicNotes);
+					}
+				}
+				break;
+			default:
+				show_debug_message("Use nothing")
 		}
 	}
 }

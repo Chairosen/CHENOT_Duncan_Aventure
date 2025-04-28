@@ -4,7 +4,6 @@ var case3 = HPBoss <= 20 && HPBoss > 10
 var case4 = HPBoss <= 10 && HPBoss > 0
 var case5 = HPBoss <= 0
 
-show_debug_message(HPBoss);
 switch (true) 
 {
 	case (case1) : 
@@ -13,7 +12,6 @@ switch (true)
 			instance_create_layer(O_Boss.x,O_Boss.y,"Enemy",O_Boss_Stunt);
 			instance_destroy(O_Boss);
 			O_Boss_Stunt.HP = HPBoss;
-			show_debug_message("stun");
 		}
 		break;
 	case (case2) : 
@@ -22,7 +20,6 @@ switch (true)
 			instance_create_layer(O_Boss_Stunt.x,O_Boss_Stunt.y,"Enemy",O_Boss);
 			instance_destroy(O_Boss_Stunt);
 			O_Boss.HP = HPBoss;
-			show_debug_message("unstun");
 		}
 		break;
 	case (case3) : 
@@ -31,7 +28,6 @@ switch (true)
 			instance_create_layer(O_Boss.x,O_Boss.y,"Enemy",O_Boss_Stunt);
 			instance_destroy(O_Boss);
 			O_Boss_Stunt.HP = HPBoss;
-			show_debug_message("stun");
 		}
 		break;
 	case (case4) : 
@@ -40,7 +36,6 @@ switch (true)
 			instance_create_layer(O_Boss_Stunt.x,O_Boss_Stunt.y,"Enemy",O_Boss);
 			instance_destroy(O_Boss_Stunt);
 			O_Boss.HP = HPBoss;
-			show_debug_message("unstun");
 		}
 		break;
 	case (case5) : 

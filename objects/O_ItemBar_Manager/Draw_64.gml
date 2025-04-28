@@ -4,7 +4,10 @@ var height = view_get_hport(0)*2/3; //display_get_height(); //camera_get_view_he
 for (var i = 0; i < 2;i++)
 {
 	draw_sprite(S_BarCase,0,width+i*64,height);
-	draw_sprite(weapons[i],0,width+i*64-6,height-6);
+	if (global.weaponList[i] == "Kill" || global.weaponList[i] == "Music" )
+	{
+		draw_sprite(weapons[i],0,width+i*64-6,height-6);
+	}
 }
 switch (O_Player.weapon)
 {

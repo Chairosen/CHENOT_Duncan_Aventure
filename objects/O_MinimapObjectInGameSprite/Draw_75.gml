@@ -1,4 +1,6 @@
 if (global.showMap){
-	draw_sprite_ext(minimapSprite,0,40*x/O_Minimap_Manager.widthProportion,40*y/O_Minimap_Manager.heightProportion,image_xscale,image_yscale,0,c_white,1);
+	selfY = 32 + 30*y/O_Minimap_Manager.heightProportion;
+	selfX = 32 + 30*x/O_Minimap_Manager.widthProportion;
+	draw_sprite_ext(minimapSprite,0,selfX,selfY,image_xscale,image_yscale,0,c_white,1);
 	//draw_sprite(minimapSprite,0,40*x/O_Minimap_Manager.widthProportion,40*y/O_Minimap_Manager.heightProportion)
 }

@@ -10,3 +10,7 @@ if (parentInGame != -4){
 	image_yscale = parentInGame.image_yscale/2;
 	}
 }
+else
+{
+	instance_destroy(self);
+}

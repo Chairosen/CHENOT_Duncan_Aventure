@@ -49,7 +49,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"CHENOT_Duncan_Aventure",
   "resources":[
@@ -81,6 +81,7 @@
     {"id":{"name":"O_MinimapObjectInGameSprite","path":"objects/O_MinimapObjectInGameSprite/O_MinimapObjectInGameSprite.yy",},},
     {"id":{"name":"O_MusicNotes","path":"objects/O_MusicNotes/O_MusicNotes.yy",},},
     {"id":{"name":"O_Player","path":"objects/O_Player/O_Player.yy",},},
+    {"id":{"name":"O_Reaper","path":"objects/O_Reaper/O_Reaper.yy",},},
     {"id":{"name":"O_Return","path":"objects/O_Return/O_Return.yy",},},
     {"id":{"name":"O_Selector","path":"objects/O_Selector/O_Selector.yy",},},
     {"id":{"name":"O_SelectParticle","path":"objects/O_SelectParticle/O_SelectParticle.yy",},},
@@ -135,6 +136,7 @@
     {"id":{"name":"S_PlayerMM","path":"sprites/S_PlayerMM/S_PlayerMM.yy",},},
     {"id":{"name":"S_Potion","path":"sprites/S_Potion/S_Potion.yy",},},
     {"id":{"name":"S_Potion2","path":"sprites/S_Potion2/S_Potion2.yy",},},
+    {"id":{"name":"S_Reaper","path":"sprites/S_Reaper/S_Reaper.yy",},},
     {"id":{"name":"S_Return","path":"sprites/S_Return/S_Return.yy",},},
     {"id":{"name":"S_ScytheBar","path":"sprites/S_ScytheBar/S_ScytheBar.yy",},},
     {"id":{"name":"S_Select","path":"sprites/S_Select/S_Select.yy",},},

@@ -8,11 +8,11 @@ if(!existSelector)
 		j -= 12 * int64(i div 12);
 		if (i%2 == 0)
 		{
-			draw_sprite(S_Heart, 0, (camera_get_view_width(view_camera[0])) + j*32, heartY);
+			draw_sprite(S_Heart, 0, (view_wport[0]*1.5/3) + j*32, heartY);
 		}
 		else
 		{
-			draw_sprite_ext(S_Heart, 0, (camera_get_view_width(view_camera[0])) + j*32, heartY,-1,1,0,c_white,1);
+			draw_sprite_ext(S_Heart, 0, (view_wport[0]*1.5/3) + j*32, heartY,-1,1,0,c_white,1);
 		}
 	}
 }
