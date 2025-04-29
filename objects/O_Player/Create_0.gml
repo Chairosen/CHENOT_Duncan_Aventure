@@ -1,6 +1,6 @@
 if (!variable_global_exists("nextRoom"))
 {
-	global.nextRoom = Menu;
+	global.nextRoom = R_Menu;
 }
 if (!variable_global_exists("weaponList"))
 {

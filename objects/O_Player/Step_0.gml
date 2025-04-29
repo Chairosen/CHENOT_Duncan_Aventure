@@ -8,7 +8,7 @@ global.atk = mouse_check_button_pressed(mb_left);
 
 if (global.playerLife <= 0)
 {
-	room_goto(Death);
+	room_goto(R_Death);
 }
 
 //verification and getting of the connected controller

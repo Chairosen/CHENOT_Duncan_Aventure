@@ -4,5 +4,5 @@ if (global.BossDefeated)
 }
 else 
 {
-	room_goto(Menu);
+	room_goto(R_Menu);
 }

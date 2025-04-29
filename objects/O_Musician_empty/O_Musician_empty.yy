@@ -1,22 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"O_Reaper",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"O_Musician_empty",
+  "eventList":[],
   "managed":true,
-  "name":"O_Reaper",
+  "name":"O_Musician_empty",
   "overriddenProperties":[],
   "parent":{
     "name":"NPC",
     "path":"folders/Objects/Game/NPC.yy",
   },
   "parentObjectId":{
-    "name":"O_Interactible",
-    "path":"objects/O_Interactible/O_Interactible.yy",
+    "name":"O_Reaper_empty",
+    "path":"objects/O_Reaper_empty/O_Reaper_empty.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -39,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Reaper_with_weapon",
-    "path":"sprites/S_Reaper_with_weapon/S_Reaper_with_weapon.yy",
+    "name":"S_Musician",
+    "path":"sprites/S_Musician/S_Musician.yy",
   },
   "spriteMaskId":null,
   "visible":true,

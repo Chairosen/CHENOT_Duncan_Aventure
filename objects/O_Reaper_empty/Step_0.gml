@@ -1,5 +1,3 @@
-// Inherit the parent event
-event_inherited();
 if (move)
 {
 	y += velocity / 60;
