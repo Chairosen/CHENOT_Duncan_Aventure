@@ -1,4 +1,4 @@
-if (parentInGame != -4){
+if (instance_exists(parentInGame)){
 	x = parentInGame.x;
 	y = parentInGame.y;
 	if (parentInGame.image_xscale > 1)

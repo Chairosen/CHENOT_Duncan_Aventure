@@ -4,6 +4,9 @@ if (global.showMap){
 	widthProportion = room_width * 100 / window_get_width()/*camera_get_view_width(view_camera[0])*/
 	var height = (30 * room_height) / heightProportion;
 	var width = (30 * room_width) / widthProportion;
+	if (window_get_fullscreen()){
+		width *= 2/3
+		height *= 2/3}
 	draw_rectangle(32,32,width+32,height+32,0);
 }
 else if (alarm[0] > 0)

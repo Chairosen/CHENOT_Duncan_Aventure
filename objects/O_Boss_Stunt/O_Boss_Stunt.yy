@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Cerberus_Fantom",
-    "path":"sprites/S_Cerberus_Fantom/S_Cerberus_Fantom.yy",
+    "name":"Boss_Stunt",
+    "path":"sprites/Boss_Stunt/Boss_Stunt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

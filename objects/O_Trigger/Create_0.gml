@@ -1,0 +1,1 @@
+dialogue = ["Je suis enfin arrivé dans cette forêt... Comme il se dit, ce lieu est extrêmement habité par des esprits.","Avec cette arme,"]

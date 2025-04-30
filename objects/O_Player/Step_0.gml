@@ -104,6 +104,11 @@ if (global.atk)
 	{
 		switch (weapon)
 		{
+			default:
+				isAtk = true;
+				alarm[1] = 10;
+				show_debug_message("Use nothing");
+				break;
 			case "Kill" :
 				if (array_contains(global.weaponList,"Kill"))
 				{
@@ -122,8 +127,6 @@ if (global.atk)
 					}
 				}
 				break;
-			default:
-				show_debug_message("Use nothing")
 		}
 	}
 }

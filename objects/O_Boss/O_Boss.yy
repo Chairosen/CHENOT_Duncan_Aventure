@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Cerberus_Fantom",
-    "path":"sprites/S_Cerberus_Fantom/S_Cerberus_Fantom.yy",
+    "name":"Boss_Idle",
+    "path":"sprites/Boss_Idle/Boss_Idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,
