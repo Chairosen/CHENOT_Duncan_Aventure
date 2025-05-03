@@ -1,1 +1,0 @@
-var currentButton = ds_list_find_value(allButtons,0);

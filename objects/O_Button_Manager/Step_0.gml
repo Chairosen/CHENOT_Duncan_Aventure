@@ -1,1 +1,0 @@
-event_perform_object(O_Button,ev_other,ev_user0);

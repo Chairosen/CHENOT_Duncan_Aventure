@@ -132,3 +132,20 @@ if (global.atk)
 }
 
 global.actualRoom = room_get_name(room);
+
+if (x < 0)
+{
+	x = 0;
+}
+else if (x > room_width)
+{
+	x = room_width - 64;
+}
+else if (y < 0)
+{
+	y = 0;
+}
+else if (y > room_height)
+{
+	y = room_height - 64;
+}

@@ -21,11 +21,11 @@ if (alarm[2] > 0)
 if (alarm[3] > 0)
 {
 	draw_set_halign(fa_left);
-	draw_text(32,camera_get_view_height(view_camera[0])*3/4,"Cette âme ne semble pas entendre la douce mélodie...");
+	draw_text(32,camera_get_view_height(view_camera[0])*2.5/4,"Cette âme ne semble pas entendre la douce mélodie...");
 }
 //Affiche une phrase quand le joueur réussi à apaiser une âme
 if (alarm[4] > 0)
 {
 	draw_set_halign(fa_left);
-	draw_text(32,camera_get_view_height(view_camera[0])*3/4,"Elle ne semble pas insensible à cette mélodie !");
+	draw_text(32,camera_get_view_height(view_camera[0])*2.5/4,"Elle ne semble pas insensible à cette mélodie !");
 }

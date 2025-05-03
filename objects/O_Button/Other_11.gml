@@ -1,1 +1,5 @@
-image_blend = merge_color(image_blend,c_white,0.05);
+image_speed = -1;
+if (image_index == 0.5)
+{
+	image_speed = 0
+}

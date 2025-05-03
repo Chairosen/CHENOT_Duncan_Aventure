@@ -1,1 +1,5 @@
-image_blend = merge_color(image_blend,buttonSelectionColor,0.05);
+image_speed = 1;
+if (image_index == 2.5)
+{
+	image_speed = 0
+}

@@ -1,8 +1,8 @@
 if (scriptToExecute != -4)
 {
-	if (self.buttonText == "Start")
+	if (self.sprite_index == S_StartButton)
 	{
-		self.buttonText = "Resume";
+		self.sprite_index = S_StartButton;
 		global.nextRoom = R_Test;
 	}
 	script_execute(scriptToExecute);
