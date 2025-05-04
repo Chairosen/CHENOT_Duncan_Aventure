@@ -34,5 +34,5 @@
     "path":"sprites/S_Interact/S_Interact.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
