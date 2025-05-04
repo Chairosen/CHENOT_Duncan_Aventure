@@ -1,2 +1,2 @@
-global.actualRoom = "R_Test";
+global.actualRoom = "R_Story";
 global.BossDefeated = false;

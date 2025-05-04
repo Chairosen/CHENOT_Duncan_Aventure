@@ -1,5 +1,5 @@
 var nbRandom = random(20);
-if (global.actualRoom == "R_Death"){global.actualRoom = "R_Test"}
+if (global.actualRoom == "R_Death"){global.actualRoom = "R_Story"}
 for (var i = 0; i <= nbRandom; i++)
 {
 //instance_create_layer(x+image_xscale*32,y+image_yscale/2,"Particles",O_SelectParticle);

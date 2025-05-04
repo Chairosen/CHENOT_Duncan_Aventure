@@ -21,6 +21,6 @@ if (HP < 5)
 		O_Player.y -= (y-O_Player.y)*3;
 		hasInvoqued = true;
 		sprite_index = S_Child_Fantom_Hurt;
-		//alarm[2] = 2;
+		alarm[2] = 2;
 	}
 }
