@@ -142,6 +142,7 @@
     {"id":{"name":"S_InventoryKey","path":"sprites/S_InventoryKey/S_InventoryKey.yy",},},
     {"id":{"name":"S_Knight_Fantom","path":"sprites/S_Knight_Fantom/S_Knight_Fantom.yy",},},
     {"id":{"name":"S_LeftKey","path":"sprites/S_LeftKey/S_LeftKey.yy",},},
+    {"id":{"name":"S_MinimapKey","path":"sprites/S_MinimapKey/S_MinimapKey.yy",},},
     {"id":{"name":"S_Musician_with_weapon","path":"sprites/S_Musician_with_weapon/S_Musician_with_weapon.yy",},},
     {"id":{"name":"S_Musician","path":"sprites/S_Musician/S_Musician.yy",},},
     {"id":{"name":"S_MusicNotes","path":"sprites/S_MusicNotes/S_MusicNotes.yy",},},
