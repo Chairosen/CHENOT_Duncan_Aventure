@@ -21,3 +21,7 @@
 - Les ennemis traversent les murs s'ils n'y a qu'une case de collision
 - De mes tests j'avais au minimum 117 âmes, du test d'Auryanne elle avait au minimum 87 âmes, j'ai donc dû abaisser le compte nécessaire pour accéder au boss
 - Lorsqu'on apparait en empruntant une porte, si on bouge à l'apparition, on se décale de quelques  pixels
+
+
+## Petit message à Louis
+Coucou, j'éspère que tu t'en sors, on a hâte de te revoir pour profiter de tes cours si agréables ^^
