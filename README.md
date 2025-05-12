@@ -24,4 +24,4 @@
 
 
 ## Petit message à Louis
-Coucou, j'éspère que tu t'en sors, on a hâte de te revoir pour profiter de tes cours si agréables ^^
+Coucou, j'espère que tu t'en sors, on a hâte de te revoir pour profiter de tes cours si agréables ^^
